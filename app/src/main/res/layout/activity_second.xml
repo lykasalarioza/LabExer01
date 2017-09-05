@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.angelica.firstactivity.SecondAct">
+
+    <TextView
+        android:id="@+id/ra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Your RA is:"
+        android:textColor="#000"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ra"
+        android:layout_margin="10dp"
+        android:id="@+id/RtngAve"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/fa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RtngAve"
+        android:text="Your final grade is: "
+        android:textColor="#000"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/fa"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/FinAve"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/Return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FinAve"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="Back"
+        android:onClick="goBackToMain"/>
+
+</RelativeLayout>
